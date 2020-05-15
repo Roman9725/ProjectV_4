@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Layout !</title>
+
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			.clearFix {
+				clear: both;
+			}
+
+			.mainWrap {
+				width: 100%;
+			}
+
+			.subWrap {
+				width: 960px;
+				display: block;
+				margin: 0 auto;
+			}
+
+			.logo {
+				background-color: grey;
+				height: 50px;
+				margin-bottom: 10px;
+			}
+
+			.miniBoxContainer {
+				width: 234px;
+				float: left;
+				margin-left: 8px;
+			}
+
+			.miniBoxContainer:nth-child(1) {
+				margin-left: 0;
+			}
+
+			.miniBox {
+				background-color: grey;
+				height: 150px;
+				margin-top: 8px;
+			}
+
+			.boxes {
+				float: left;
+				background-color: grey;
+				height: 250px;
+				width: 314px;
+				margin-top: 10px;
+			}
+
+			.middleBox {
+				margin: 10px 9px 0 9px;
+			}
+
+			.footerSec {
+				background-color: grey;
+				height: 50px;
+				margin-top: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<!--start of top section-->
+
+		<div class="mainWrap">
+			<div class="subWrap">
+				<div class="logo">
+					<h1>LOGO</h1>
+				</div>
+			</div>
+		</div>
+
+		<!--Top section ends here-->
+
+		<!--start of middle section-->
+
+		<div class="mainWrap">
+			<div class="subWrap">
+				<!--start of miniBox section-->
+
+				<div class="miniBoxContainer">
+					<div class="miniBox">
+						<h1>1</h1>
+					</div>
+					<div class="miniBox">
+						<h1>2</h1>
+					</div>
+					<div class="miniBox">
+						<h1>3</h1>
+					</div>
+					<div class="miniBox">
+						<h1>4</h1>
+					</div>
+				</div>
+
+				<div class="miniBoxContainer">
+					<div class="miniBox">
+						<h1>1</h1>
+					</div>
+					<div class="miniBox">
+						<h1>2</h1>
+					</div>
+					<div class="miniBox">
+						<h1>3</h1>
+					</div>
+					<div class="miniBox">
+						<h1>4</h1>
+					</div>
+				</div>
+
+				<div class="miniBoxContainer">
+					<div class="miniBox">
+						<h1>1</h1>
+					</div>
+					<div class="miniBox">
+						<h1>2</h1>
+					</div>
+					<div class="miniBox">
+						<h1>3</h1>
+					</div>
+					<div class="miniBox">
+						<h1>4</h1>
+					</div>
+				</div>
+
+				<div class="miniBoxContainer">
+					<div class="miniBox">
+						<h1>1</h1>
+					</div>
+					<div class="miniBox">
+						<h1>2</h1>
+					</div>
+					<div class="miniBox">
+						<h1>3</h1>
+					</div>
+					<div class="miniBox">
+						<h1>4</h1>
+					</div>
+				</div>
+
+        <!--miniBox section ends here-->
+        
+        <!--start of bigBox-->
+
+				<div class="boxes">
+					<h1>BOX1</h1>
+				</div>
+
+				<div class="boxes middleBox">
+					<h1>BOX1</h1>
+				</div>
+
+				<div class="boxes">
+					<h1>BOX1</h1>
+				</div>
+			</div>
+    </div>
+    
+    <!--bigBox section ends here-->
+
+		<!--middle section ends here-->
+
+		<div class="clearFix"></div>
+
+		<!--start of footer-->
+
+		<div class="mainWrap">
+			<div class="subWrap">
+				<div class="footerSec">
+					<footer>
+						<h1>FOOTER</h1>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		<!--middle section ends here-->
+	</body>
+</html>
